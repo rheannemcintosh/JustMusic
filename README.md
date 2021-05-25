@@ -1,4 +1,4 @@
-# ftuygi
+# JustMusic
 
 ## Project setup
 ```
