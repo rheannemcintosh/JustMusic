@@ -13,6 +13,7 @@ import {
   alpha_spaces as alphaSpaces,
   min_value as minVal,
   max_value as maxVal,
+  not_one_of as excluded,
 } from '@vee-validate/rules';
 
 export default {
@@ -29,5 +30,6 @@ export default {
     defineRule('alpha_spaces', alphaSpaces);
     defineRule('min_value', minVal);
     defineRule('max_value', maxVal);
+    defineRule('excluded', excluded);
   },
 };
