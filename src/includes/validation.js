@@ -6,10 +6,13 @@ import {
 } from 'vee-validate';
 import {
   required,
+  confirmed,
   email,
   min,
   max,
   alpha_spaces as alphaSpaces,
+  min_value as minVal,
+  max_value as maxVal,
 } from '@vee-validate/rules';
 
 export default {
@@ -19,9 +22,12 @@ export default {
     app.component('ErrorMessage', ErrorMessage);
 
     defineRule('required', required);
+    defineRule('confirmed', confirmed);
     defineRule('email', email);
     defineRule('min', min);
     defineRule('max', max);
     defineRule('alpha_spaces', alphaSpaces);
+    defineRule('min_value', minVal);
+    defineRule('max_value', maxVal);
   },
 };
