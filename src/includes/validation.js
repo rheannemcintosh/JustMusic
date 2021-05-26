@@ -5,7 +5,11 @@ import {
   ErrorMessage,
 } from 'vee-validate';
 import {
-  required, min, max, alpha_spaces as alphaSpaces,
+  required,
+  email,
+  min,
+  max,
+  alpha_spaces as alphaSpaces,
 } from '@vee-validate/rules';
 
 export default {
@@ -15,6 +19,7 @@ export default {
     app.component('ErrorMessage', ErrorMessage);
 
     defineRule('required', required);
+    defineRule('email', email);
     defineRule('min', min);
     defineRule('max', max);
     defineRule('alpha_spaces', alphaSpaces);
