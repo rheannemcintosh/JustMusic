@@ -185,11 +185,14 @@
             </div>
             <!-- TOS -->
             <div class="mb-3 pl-6">
-              <input
+              <vee-field
                 type="checkbox"
-                class="w-4 h-4 float-left -ml-6 mt-1 rounded"
+                name="tos"
+                value="1"
+                class="w-4 h-4 float-left -ml-6 mt-1 rounded inline-block"
               />
               <label class="inline-block">Accept terms of service</label>
+              <ErrorMessage class="text-red-600 block" name="tos" />
             </div>
             <button
               type="submit"
@@ -222,7 +225,7 @@ export default {
         password: 'required|min:3|max:100',
         confirm_password: 'confirmed:@password',
         country: 'required|excluded:Antarctica',
-        tos: '',
+        tos: 'required',
       },
     };
   },
