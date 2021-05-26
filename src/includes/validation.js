@@ -55,6 +55,10 @@ export default {
 
         return message;
       },
+      validateOnBlue: true,
+      validateOnChange: true,
+      validateOnInput: false,
+      validateOnModelUpdate: true,
     });
   },
 };
