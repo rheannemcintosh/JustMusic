@@ -21,6 +21,8 @@ The initial work is still underway, but currently the application uses Vue.js an
 
 :black_square_button: Update Wiki
 
+:black_square_button: Write Application Setup / Commands
+
 :black_square_button: Create Next Steps
  
 :black_square_button: Archive Repository
