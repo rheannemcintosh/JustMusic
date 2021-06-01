@@ -39,7 +39,7 @@ The initial work is still underway, but currently the application uses Vue.js an
 - **Author:** Rheanne McIntosh
 - **365 Days of Code:** Day 206 - Ongoing / 365
 - **Zero to Mastery Tutorial:** [Complete Vue Developer in 2021 (Vuex, Composition API, Router)](https://academy.zerotomastery.io/p/learn-vue-js)
-- **Instructors:** Zero to Mastery Academy - Andrei Neagoie / Luis R
+- **Instructors:** Andrei Neagoie / Luis R
 
 If you have any questions or can suggest any improvements, please let me know!
 
